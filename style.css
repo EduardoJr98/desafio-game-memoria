@@ -53,8 +53,8 @@ h2 {
 }
 
 .game {
-  width: auto;
-  height: auto;
+  width: 450px;
+  height: 450px;
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
@@ -76,6 +76,7 @@ h2 {
   background-color: #d1b29e;
   border: 3px solid #4a3a24;
   border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
   font-size: 3em;
   font-family: 'Cinzel', serif;
   color: #4a3a24;
