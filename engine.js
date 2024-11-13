@@ -16,6 +16,7 @@ const emojis = [
   "🐮",
   "🐮",
 ];
+
 let openCards = [];
 
 let shuffleEmojis = emojis.sort(() => (Math.random() > 0.5 ? 2 : -1));
@@ -29,6 +30,10 @@ for (let i = 0; i < emojis.length; i++) {
 }
 
 function handleClick() {
+  if (this.classList.contains("boxOpen") || this.classList.contains("boxMatch")) {
+    return;
+  }
+
   if (openCards.length < 2) {
     this.classList.add("boxOpen");
     openCards.push(this);
