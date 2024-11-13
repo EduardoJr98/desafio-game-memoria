@@ -15,7 +15,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  background: linear-gradient(325deg, #2f1b29 0%, #5d3e62 40%, #9b4d8e 100%);
+  background: linear-gradient(325deg, #2f1b29 0%, #C0C0C0 40%, #FFD700 100%);
   padding: 40px 60px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
